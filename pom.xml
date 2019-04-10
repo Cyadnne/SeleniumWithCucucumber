@@ -36,6 +36,10 @@
                         </goals>
                         <configuration>
                             <projectName>ExecuteAutomation</projectName>
+                            <properties>
+                           <maven.compiler.source>6</maven.compiler.source>
+                           <maven.compiler.target>1.6</maven.compiler.target>
+                           </properties>     
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
